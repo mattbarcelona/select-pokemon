@@ -1,1 +1,47 @@
-
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkcyan;
+}
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pokemon-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  border-color: transparent;
+}
+#get-pokemon {
+  border-radius: 15px;
+  height: 30px;
+  font-size: medium;
+  font-weight: 700;
+  letter-spacing: 0.3;
+  border-color: transparent;
+  background-color: blue;
+  transition: all 3s ease;
+  color: beige;
+}
+#get-pokemon:hover {
+  transform: scale(1.3);
+  background-color: aqua;
+}
+#pokemon-select {
+  border-radius: 15px;
+  height: 30px;
+  font-size: medium;
+  font-weight: 700;
+  letter-spacing: 0.3;
+  border-color: transparent;
+  margin-right: 15px;
+  color: beige;
+  background-color: black;
+}
+#imagePoke {
+  margin-top: 50px;
+  width: fit-content;
+  height: 400px;
+}

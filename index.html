@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/styles.css">
-  <title>Pokemon API</title>
-</head>
-<body>
-  <div class="container">
-    <h1>Información de Pokémon</h1>
-    <div class="pokemon-form">
-      <select id="pokemon-select">
-        <option value="bulbasaur">Bulbasaur</option>
-        <option value="charmander">Charmander</option>
-        <option value="squirtle">Squirtle</option>
-      </select>
-      <button id="get-pokemon">Obtener Información</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Pokemon API</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Información de Pokémon</h1>
+      <div class="pokemon-form">
+        <select id="pokemon-select">
+          <option value="bulbasaur">Bulbasaur</option>
+          <option value="charmander">Charmander</option>
+          <option value="squirtle">Squirtle</option>
+        </select>
+        <button id="get-pokemon">Obtener Información</button>
+      </div>
+      <div id="pokemon-display"></div>
     </div>
-    
-  </div>
-  <script src="./js/script.js"></script>
-</body>
+    <div id="imagePoke">
+      <img src="images/pokemon-bakground.jpg" alt="Pokemon" />
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
